@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restx import Api
-from .requests.views import requests_namespace
+from .requests.views import request_namespace
 from .auth.views import auth_namespace
 from .config.config import config_dict
 
@@ -11,7 +11,7 @@ def create_app(config = config_dict['dev']):
 
 	api = Api(app)
 
-	api.add_namespace(requests_namespace)
+	api.add_namespace(request_namespace)
 	api.add_namespace(auth_namespace, path='/auth')
 
 	return app
