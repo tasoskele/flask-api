@@ -1,1 +1,61 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+
+# Environment variables
 .env
+
+# IDE settings
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*~
+.project
+.pydevproject
+.idea/
+
+# Log files
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Flask file
+*.flaskenv
+
+# Database
+*.db
+*.sqlite
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
